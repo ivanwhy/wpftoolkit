@@ -373,6 +373,9 @@ namespace Xceed.Wpf.Toolkit
           var date = currentValue ?? this.ContextNow;
           var newValue = new DateTime( date.Year, date.Month, date.Day, time.Hours, time.Minutes, time.Seconds, time.Milliseconds, date.Kind );
           this.TextBox.Text = newValue.ToString( this.GetFormatString( this.Format ), this.CultureInfo );
+
+                    // EDIT: Update the value as well as the text
+                    this.Value = newValue;
         }
         else
         {

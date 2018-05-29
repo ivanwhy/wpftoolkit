@@ -1,0 +1,32 @@
+# UNSET automatic CRLF conversion for MS.NET project
+* -text
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.bmp binary
+*.exe binary
+*.dll binary
+*.msi binary
+*.zip binary
+*.obj binary
+*.vsdx binary
+*.doc binary
+*.docx binary
+*.bat binary
+*.ico binary
+*.chk binary
+*.ini binary
+*.xulrunner binary
+*.aff binary
+*.dic binary
+*.pdb binary
+*.pdf binary
+*.orig binary
+*.mdb binary
+*.xls binary
+*.xlsx binary
+*.cd binary
+*.licx binary
+*.vsmdi binary

@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+*.suo
+Debug/
+Release/
+*.user
+*.pdb
+*.dll
+*.DotSettings
+obj
